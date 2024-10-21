@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    width: 600px;
+    height: 20vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-container div {
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+.flex-child1 {
+    align-self: flex-end;
+}
+
+.flex-child2 {
+    align-self: center;
+}
+
+.flex-child3 {
+    align-self: flex-start;
+}
